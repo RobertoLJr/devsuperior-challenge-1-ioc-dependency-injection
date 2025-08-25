@@ -20,6 +20,7 @@ aplicar o desconto ao valor básico do pedido e adicionar o valor do frete.
 
 - **Order**: Entidade com código, valor base e desconto.
 - **OrderService**: Serviço contendo a lógica do valor total de um pedido.
+  - Cálculos feitos com BigDecimal para maior precisão em valores monetários.
 - **ShippingService**: Serviço contendo a lógica do valor do frete de um pedido.
 
 ## Exemplo de saída
